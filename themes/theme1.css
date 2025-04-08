@@ -1,0 +1,78 @@
+/* クラシックダークテーマ */
+html, body {
+  background-color: #121212 !important;
+  color: #e0e0e0 !important;
+}
+
+a {
+  color: #90caf9 !important;
+}
+
+a:visited {
+  color: #ce93d8 !important;
+}
+
+input, textarea, select, button {
+  background-color: #333 !important;
+  color: #e0e0e0 !important;
+  border-color: #666 !important;
+}
+
+div, section, article, aside, nav, header, footer {
+  background-color: #1e1e1e !important;
+  color: #e0e0e0 !important;
+}
+
+/* テーブル要素 */
+table, th, td {
+  background-color: #1e1e1e !important;
+  color: #e0e0e0 !important;
+  border-color: #666 !important;
+}
+
+/* フォーム要素のホバー状態 */
+input:hover, textarea:hover, select:hover, button:hover {
+  background-color: #444 !important;
+}
+
+/* ヘッダーやナビゲーション用のスタイル */
+header, nav {
+  background-color: #1a1a1a !important;
+}
+
+/* コードやプリフォーマット要素 */
+pre, code {
+  background-color: #252525 !important;
+  color: #e0e0e0 !important;
+  border-color: #666 !important;
+}
+
+/* 引用やブロック引用 */
+blockquote {
+  background-color: #252525 !important;
+  border-left-color: #555 !important;
+}
+
+/* 水平線 */
+hr {
+  border-color: #555 !important;
+}
+
+/* スクロールバー */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1e1e1e;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #555;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #666;
+} 
