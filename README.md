@@ -1,66 +1,42 @@
 # The Dark Mode
 
-シンプルで使いやすいChromeダークモード拡張機能。ワンクリックでウェブページをダークモードに切り替えることができます。
+A simple and user-friendly Chrome extension that enables dark mode on any website with a single click.
 
-## 機能
+## Features
 
-- ワンクリックでダークモードの有効/無効を切り替え
-- 3種類のダークテーマから選択可能
-  - クラシック（黒と白）
-  - ダークブルー（暗い青系統）
-  - セピア（茶色系統）
-- シンプルで直感的なインターフェース
-- 設定は自動で保存
+- Toggle dark mode on and off with one click
+- Choose from 3 elegant dark themes:
+  - Classic (dark gray)
+  - Black
+  - Dark Blue
+- Clean and intuitive popup interface
+- Settings are saved automatically and persist across sessions
 
-## インストール方法
+## Installation
 
-### 開発中の拡張機能をインストールする場合
+### From Chrome Web Store
 
-1. このリポジトリをクローンまたはダウンロードします
-2. Google Chromeで `chrome://extensions/` を開きます
-3. 右上の「デベロッパーモード」を有効にします
-4. 「パッケージ化されていない拡張機能を読み込む」をクリックします
-5. ダウンロードしたフォルダを選択します
+1. Visit the [Chrome Web Store](https://chromewebstore.google.com/detail/the-dark-mode/lgpgkcfphhombbdinhpeifjbomddjchj?hl=ja&utm_source=ext_sidebar) and search for "The Dark Mode"
+2. Click the **Add to Chrome** button
 
-### ウェブストアからインストールする場合（将来的に）
+## Usage
 
-1. [Chrome ウェブストア](#)から「The Dark Mode」を検索します
-2. 「Chromeに追加」ボタンをクリックします
+1. Click the extension icon in the Chrome toolbar
+2. Use the toggle switch in the popup to enable or disable dark mode
+3. Select your preferred theme from the three available options
+4. Your preferences are saved automatically and will be applied the next time you browse
 
-## 使い方
+## Development
 
-1. Chromeツールバーに表示される拡張機能アイコンをクリックします
-2. 表示されるポップアップでスイッチをオン/オフして、ダークモードを切り替えます
-3. 3つのテーマオプションから好みのスタイルを選択します
-4. 設定は自動的に保存され、次回も同じ設定が適用されます
+- Built with HTML, CSS, and JavaScript
+- Uses the Chrome Extension API
+- Theme settings are stored with `chrome.storage.sync`
+- Applies styles via content scripts
 
-## アイコンについて
-
-`icons/` フォルダには以下のサイズのアイコンが必要です：
-
-- `icon16.png`: 16x16 ピクセル
-- `icon48.png`: 48x48 ピクセル
-- `icon128.png`: 128x128 ピクセル
-
-デフォルトのプレースホルダーアイコンはまだ含まれていないため、拡張機能を実行する前に独自のアイコンを追加するか、以下のようなフリーのアイコン作成ツールを使用することをお勧めします：
-
-- [Canva](https://www.canva.com/)
-- [GIMP](https://www.gimp.org/)
-- [Inkscape](https://inkscape.org/)
-
-シンプルな月のシルエットや昼と夜を表す分割円など、ダークモードを象徴するデザインが適しています。
-
-## 開発
-
-- HTML/CSS/JavaScriptを使用
-- Chrome Extension API
-- `chrome.storage.sync` で設定を保存
-- コンテンツスクリプトでCSSを挿入
-
-## ライセンス
+## License
 
 MIT
 
-## 作者
+## Author
 
-[あなたの名前] 
+NEET.K
